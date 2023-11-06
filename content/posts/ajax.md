@@ -2,7 +2,7 @@
 title: "Ajax"
 date: 2023-09-22T05:35:12-05:00
 categories: ["Web"]
-tages: ["request"]
+tags: ["request"]
 ---
 
 
