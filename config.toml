@@ -1,10 +1,10 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
-title = "Hugo Theme MemE"
+baseURL = "http://spongybaby.top"
+title = "Yang Yvchun's Blog"
 languageCode = "en"
-hasCJKLanguage = false
+hasCJKLanguage = true
 # Copyright information (Markdown supported)
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 
@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 42
+summaryLength = 0
 
 # Enable Emoji emoticons support?
 enableEmoji = false
@@ -98,17 +98,17 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "Yang Yvchun"
     # Email
-    email = "reuixiy@gmail.com"
+    email = "feiTom001@gmail.com"
     # Motto or introduction
     motto = "Viva La Vida"
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
-    website = "https://io-oi.me/"
+    website = "https://spongybaby.top/"
     # Twitter
-    twitter = "reuixiy"
+    # twitter = "reuixiy"
 
 # Related content
 [related]
@@ -203,12 +203,12 @@ uglyURLs = false
 
 [menu]
     ## Menu bar
-    # [[menu.main]]
-    #     pageref = "/"
-    #     name = "Home"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
+    [[menu.main]]
+        pageref = "/"
+        name = "Home"
+        weight = 1
+        pre = "internal"
+        post = "home"
     [[menu.main]]
         pageref = "/posts/"
         name = "Posts"
