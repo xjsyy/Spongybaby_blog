@@ -4,13 +4,14 @@ date: 2023-09-07T05:32:33-05:00
 categories: ["Linux"]
 tags: ["VM"]
 ---
-首先找到配置文件
+
+Debian虚拟机全屏,首先找到配置文件
 ```bash
 su      #管理员目录
 cd /etc/apt
 cp sources.list sources.list.bak  #备份sources.list文件
 ```
-将文件内容**替换**为下列内容，即更改软件源
+将文件内容**替换**为下列内容，即更改[软件源](https://mirrors.ustc.edu.cn/help/debian.html)
 ```tex
 deb http://mirrors.ustc.edu.cn/debian stable main contrib non-free non-free-firmware
 # deb-src http://mirrors.ustc.edu.cn/debian stable main contrib non-free non-free-firmware

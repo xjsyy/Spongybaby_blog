@@ -4,11 +4,11 @@ date: 2023-04-30T02:25:42-05:00
 categories: ["Linux"]
 ---
 
-    在 缺失的一课 中学到的一些知识.
+  在 [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) 中学到的一些知识.
 
-
+```bash
     `sudo`:"super user do"something.
-
+```
 
 ```bash
 missing:~$ ls -l /home
